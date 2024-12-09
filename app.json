@@ -1,0 +1,13 @@
+{
+  "name": "TradersStreak",
+  "displayName": "TradersStreak",
+  "plugins": [
+    "expo-font"
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "6b7d5b87-402e-492c-b32d-4d665de1ae22"
+    }
+  },
+  "owner": "100xdev"
+}
