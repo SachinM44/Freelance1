@@ -1,13 +1,40 @@
 {
-  "name": "TradersStreak",
-  "displayName": "TradersStreak",
-  "plugins": [
-    "expo-font"
-  ],
-  "extra": {
-    "eas": {
-      "projectId": "6b7d5b87-402e-492c-b32d-4d665de1ae22"
+  "expo": {
+    "name": "TradersStreak",
+    "slug": "tradersstreak",
+    "platforms": ["ios", "android", "web"],
+    "plugins": ["expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": "6b7d5b87-402e-492c-b32d-4d665de1ae22"
+      }
+    },
+    "owner": "TradersStreak",
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "TradersStreak",
+      "themeColor": "#ffffff",
+      "backgroundColor": "#ffffff",
+      "config": {
+        "manifest": {
+          "short_name": "TradersStreak",
+          "description": "Your app description",
+          "start_url": "/",
+          "display": "standalone",
+          "icons": [
+            {
+              "src": "./assets/favicon.png",
+              "sizes": "192x192",
+              "type": "image/png"
+            }
+          ]
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.tradersstreak.app",
+      "supportsTablet": true,
+      "jsEngine": "jsc" 
     }
-  },
-  "owner": "100xdev"
+  }
 }

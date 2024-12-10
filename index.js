@@ -1,3 +1,5 @@
+import 'web-streams-polyfill';
+
 import { registerRootComponent } from 'expo';
 import App from './App';
 
